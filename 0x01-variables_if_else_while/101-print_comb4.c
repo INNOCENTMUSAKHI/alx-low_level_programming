@@ -6,33 +6,32 @@
  */
 int main(void)
 {
-	int c;
-	int d;
-	int e = 0;
+	int i;
+	int n;
+	int j;
 
-	while (e < 10)
+	for (i = 48; i < 58; i++)
 	{
-		d = 0;
-		while (d < 10)
-		{
-			if (c != d && d != e && e < d && d < c)
+		for (n = 48; n < 58; n++)
+			if (n > I)
 			{
-				putchar('0' + e);
-				putchar('0' + d);
-				putcahr('0' + c);
-
-				if (c + d + e != 9 + 8 + 7)
+				for (j = 48; j < 58; j++)
 				{
-					putchar(',');
-					putchar(' ');
+					if (j > n)
+					{
+						putchar(i);
+						putchar(n);
+						putchar(j);
+						if (i == 55 && n == 56 && j == 57)
+						{
+							break;
+						}
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
-			c++;
-		}
-		d++;
 	}
-	e++;
-}
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
