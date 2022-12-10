@@ -5,7 +5,7 @@
  * starting from 0 , folllowed by a new line.
  * Return: 0
  */
-int main (void)
+int main(void)
 {
 	int c = 0;
 
