@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
 /**
  * cap_string - Capitalizes
  * @str: The string to be Capitalized
